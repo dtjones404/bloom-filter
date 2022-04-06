@@ -69,4 +69,4 @@ class BloomTester {
 const bloom = new BloomFilter(1000, 3);
 const bloomTester = new BloomTester(bloom);
 
-console.log(bloomTester.test(100, 6, 12));
+console.log(bloomTester.test(100, 6, 12)); //theory predicts fp rate of 0.017%
